@@ -15,6 +15,8 @@ Inserted page layout can be changed within revisioninfo.tex
 NOTE
 \write18 support is required within the Latex engine.
 
+ABOUT
+This allows you to run vc for tex from a folder within the directory so is cleaner than the normal method.
 
 TODO (Though I have no intention of doing so)
 Add support to other VCs (other than GIT)

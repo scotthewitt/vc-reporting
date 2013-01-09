@@ -1,0 +1,25 @@
+\immediate\write18{sh vc-reporting/vc}
+\input{vc-reporting/vc}
+\fbox{
+\begin{minipage}{3.2in}
+\begin{huge}
+Revision Information
+\end{huge}
+\\
+\\
+Build Date:
+\\
+\VCDateTEX \hspace{2 mm} \VCTime
+\\
+\\
+Version Hash:
+\\
+\VCRevision
+\\
+\GITHash
+\\
+\\
+\hfill \GITAuthorName \hfill \GITAuthorEmail \hfill
+\\
+\end{minipage}
+}
